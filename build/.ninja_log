@@ -1,0 +1,15 @@
+# ninja log v5
+1827	1958	7560763098060920	fmt/libfmtd.a	305ce013edeb85c5
+6	608	7560779515362734	CMakeFiles/MyExecutable.dir/main.cpp.obj	13a9bbf6081e225
+609	1127	7560779520403945	MyExecutable.exe	cf5dcfe70d08bd64
+34	2309	7560747559267574	spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj	370a71043e4094a7
+54	1826	7560763096701826	fmt/CMakeFiles/fmt.dir/src/format.cc.obj	8239539e4bea793
+59	1245	7560763090918177	fmt/CMakeFiles/fmt.dir/src/os.cc.obj	a27c263997c0bbeb
+44	1543	7560747551617760	spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj	128c13fd29d0660d
+29	2239	7560747558542306	spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj	b2efca6651a9d489
+54	2954	7560747565680982	spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.obj	4387212b0d01d588
+25	6765	7560747603653814	spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj	9cc19f2dd8001759
+25	708	7560771318594605	CMakeFiles/MyExecutable.dir/logger.cpp.obj	34015a25b88fb6fe
+40	1278	7560747548965013	spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj	dc5ba9830ac2d77
+49	1189	7560747548076060	spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj	444870ed08d6ae53
+6765	7145	7560747607630778	spdlog/libspdlogd.a	90cf9e8168a333a

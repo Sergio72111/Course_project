@@ -1,0 +1,68 @@
+[
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -IC:/course_project/Course_project/fmt/include -g -std=gnu++11 -o CMakeFiles\\MyExecutable.dir\\main.cpp.obj -c C:\\course_project\\Course_project\\main.cpp",
+  "file": "C:\\course_project\\Course_project\\main.cpp",
+  "output": "CMakeFiles\\MyExecutable.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -IC:/course_project/Course_project/fmt/include -g -std=gnu++11 -o CMakeFiles\\MyExecutable.dir\\logger.cpp.obj -c C:\\course_project\\Course_project\\logger.cpp",
+  "file": "C:\\course_project\\Course_project\\logger.cpp",
+  "output": "CMakeFiles\\MyExecutable.dir\\logger.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\spdlog.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\spdlog.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\stdout_sinks.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\stdout_sinks.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\color_sinks.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\color_sinks.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\file_sinks.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\file_sinks.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\async.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\async.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\cfg.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\cfg.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -IC:/course_project/Course_project/include -IC:/course_project/Course_project/spdlog/include -g -std=c++11 -o spdlog\\CMakeFiles\\spdlog.dir\\src\\fmt.cpp.obj -c C:\\course_project\\Course_project\\spdlog\\src\\fmt.cpp",
+  "file": "C:\\course_project\\Course_project\\spdlog\\src\\fmt.cpp",
+  "output": "spdlog\\CMakeFiles\\spdlog.dir\\src\\fmt.cpp.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/course_project/Course_project/fmt/include -IC:/course_project/Course_project/include -g -std=gnu++11 -o fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.obj -c C:\\course_project\\Course_project\\fmt\\src\\format.cc",
+  "file": "C:\\course_project\\Course_project\\fmt\\src\\format.cc",
+  "output": "fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.obj"
+},
+{
+  "directory": "C:/course_project/Course_project/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe -IC:/course_project/Course_project/fmt/include -IC:/course_project/Course_project/include -g -std=gnu++11 -o fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.obj -c C:\\course_project\\Course_project\\fmt\\src\\os.cc",
+  "file": "C:\\course_project\\Course_project\\fmt\\src\\os.cc",
+  "output": "fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.obj"
+}
+]
