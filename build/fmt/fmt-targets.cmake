@@ -71,7 +71,7 @@ set_target_properties(fmt::fmt-header-only PROPERTIES
 set_property(TARGET fmt::fmt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fmt::fmt PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/course_project/Course_project/build/fmt/libfmtd.a"
+  IMPORTED_LOCATION_DEBUG "C:/19_cource/Course_project/build/fmt/libfmtd.a"
   )
 
 # This file does not depend on other imported targets which have

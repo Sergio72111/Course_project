@@ -1,24 +1,28 @@
-#include "logger.h"
+#include "Logger.h"
 
-std::shared_ptr<spdlog::logger> Logger::initLogger() {
-    try {
-        // Создание sink для логов в консоль
-        auto console_sink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
-        console_sink->set_level(spdlog::level::info);  // Уровень логирования для консоли
+Logger::Logger() {
+    // Create console logger
+    console_logger = spdlog::stdout_color_mt("console_logger");
+    
+    // Create a file logger
+    auto file_sink = std::make_shared<spdlog::sinks::basic_file_sink_mt>("logs.txt", true);
+    file_logger = std::make_shared<spdlog::logger>("file_logger", file_sink);
 
-        // Создание sink для логов в файл
-        auto file_sink = std::make_shared<spdlog::sinks::basic_file_sink_mt>("app.log", true);
+    // Set global log level to warn
+    spdlog::set_level(spdlog::level::warn);
+}
 
-        // Создание логгера с использованием нескольких sinks
-        auto logger = std::make_shared<spdlog::logger>("multi_sink", spdlog::sinks_init_list{console_sink, file_sink});
-        logger->set_level(spdlog::level::trace); // Общий уровень логгера
+void Logger::logInfo(const std::string& message) {
+    console_logger->info(message);
+    file_logger->info(message);
+}
 
-        // Установка уровней для каждого sink отдельно
-        logger->sinks()[0]->set_level(spdlog::level::info);  // Консоль
-        logger->sinks()[1]->set_level(spdlog::level::err);   // Файл
+void Logger::logWarning(const std::string& message) {
+    console_logger->warn(message);
+    file_logger->warn(message);
+}
 
-        return logger;
-    } catch (const spdlog::spdlog_ex& ex) {
-        throw std::runtime_error(std::string("Log initialization failed: ") + ex.what());
-    }
+void Logger::logError(const std::string& message) {
+    console_logger->error(message);
+    file_logger->error(message);
 }

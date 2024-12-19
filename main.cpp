@@ -1,24 +1,16 @@
 #include <iostream>
-#include "logger.h"
+#include "Logger.h"
 
 int main() {
-    try {
-        auto logger = Logger::initLogger();
-        spdlog::set_default_logger(logger);
+    Logger logger;
 
-        // Пример логирования
-        spdlog::info("This is an info message.");
-        spdlog::error("This is an error message.");
-        spdlog::warn("This is a warning message.");
-        spdlog::debug("This is a debug message (won't appear due to current level setting).\n");
+    // Log messages with various severity levels
+    logger.logInfo("Welcome to spdlog!");
+    logger.logWarning("This is a warning message.");
+    logger.logError("This is an error message.");
 
-        // Уведомление о завершении
-        spdlog::info("Application finished successfully.");
-    } catch (const std::exception& ex) {
-        std::cerr << ex.what() << std::endl;
-        return 1;
-    }
+    // This info message will not be shown due to the global level setting
+    logger.logInfo("This info message will not be displayed.");
 
     return 0;
 }
-

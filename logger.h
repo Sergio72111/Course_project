@@ -1,17 +1,21 @@
 #ifndef LOGGER_H
 #define LOGGER_H
 
-#include <spdlog/spdlog.h>
-#include <spdlog/sinks/basic_file_sink.h>
-#include <spdlog/sinks/stdout_color_sinks.h>
 #include <memory>
+#include "spdlog/spdlog.h"
+#include "spdlog/sinks/basic_file_sink.h"
+#include "spdlog/sinks/stdout_color_sinks.h" // Include this for color sinks
 
 class Logger {
 public:
-    static std::shared_ptr<spdlog::logger> initLogger();
+    Logger();
+    void logInfo(const std::string& message);
+    void logWarning(const std::string& message);
+    void logError(const std::string& message);
+    
+private:
+    std::shared_ptr<spdlog::logger> console_logger;
+    std::shared_ptr<spdlog::logger> file_logger;
 };
 
 #endif // LOGGER_H
-
-
-
