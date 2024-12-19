@@ -102,12 +102,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "spdlog::@d269c8109d32a9027337"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "fmt::@b8b4cdcf357fa61d5575"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@d269c8109d32a9027337"
 		}
 	],
 	"id" : "MyExecutable::@6890427a1f51a3e7e1df",
