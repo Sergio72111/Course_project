@@ -23,8 +23,8 @@ CMAKE_AR:FILEPATH=C:/msys64/mingw64/bin/ar.exe
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=C:/msys64/mingw64/bin/g++.exe
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=C:/msys64/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -52,8 +52,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/msys64/mingw64/bin/gcc.exe
+//No help, variable specified on the command line.
+CMAKE_C_COMPILER:FILEPATH=C:/msys64/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -310,6 +310,12 @@ COURCE_PROJECT_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 COURCE_PROJECT_SOURCE_DIR:STATIC=C:/19_cource/Course_project
 
+//Enable to build 7-Zip source packages
+CPACK_SOURCE_7Z:BOOL=ON
+
+//Enable to build ZIP source packages
+CPACK_SOURCE_ZIP:BOOL=ON
+
 //Value Computed by CMake
 FMT_BINARY_DIR:STATIC=C:/19_cource/Course_project/build/fmt
 
@@ -445,8 +451,23 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 //Support wchar api
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
 
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=fmt_DIR-NOTFOUND
+
+//Value Computed by CMake
+lab7_BINARY_DIR:STATIC=C:/19_cource/Course_project/build
+
+//Value Computed by CMake
+lab7_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab7_SOURCE_DIR:STATIC=C:/19_cource/Course_project
+
 //Value Computed by CMake
 spdlog_BINARY_DIR:STATIC=C:/19_cource/Course_project/build/spdlog
+
+//The directory containing a CMake configuration file for spdlog.
+spdlog_DIR:PATH=spdlog_DIR-NOTFOUND
 
 //Value Computed by CMake
 spdlog_IS_TOP_LEVEL:STATIC=OFF
@@ -647,8 +668,14 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_SOURCE_7Z
+CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_SOURCE_ZIP
+CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Patch version
+PATCH_VERSION:INTERNAL=1.13
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run

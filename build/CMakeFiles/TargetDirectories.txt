@@ -1,4 +1,6 @@
 C:/19_cource/Course_project/build/CMakeFiles/MyExecutable.dir
+C:/19_cource/Course_project/build/CMakeFiles/package.dir
+C:/19_cource/Course_project/build/CMakeFiles/package_source.dir
 C:/19_cource/Course_project/build/CMakeFiles/edit_cache.dir
 C:/19_cource/Course_project/build/CMakeFiles/rebuild_cache.dir
 C:/19_cource/Course_project/build/CMakeFiles/list_install_components.dir
@@ -6,6 +8,8 @@ C:/19_cource/Course_project/build/CMakeFiles/install.dir
 C:/19_cource/Course_project/build/CMakeFiles/install/local.dir
 C:/19_cource/Course_project/build/CMakeFiles/install/strip.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/spdlog.dir
+C:/19_cource/Course_project/build/spdlog/CMakeFiles/package.dir
+C:/19_cource/Course_project/build/spdlog/CMakeFiles/package_source.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/edit_cache.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/rebuild_cache.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/list_install_components.dir
@@ -13,6 +17,8 @@ C:/19_cource/Course_project/build/spdlog/CMakeFiles/install.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/install/local.dir
 C:/19_cource/Course_project/build/spdlog/CMakeFiles/install/strip.dir
 C:/19_cource/Course_project/build/fmt/CMakeFiles/fmt.dir
+C:/19_cource/Course_project/build/fmt/CMakeFiles/package.dir
+C:/19_cource/Course_project/build/fmt/CMakeFiles/package_source.dir
 C:/19_cource/Course_project/build/fmt/CMakeFiles/edit_cache.dir
 C:/19_cource/Course_project/build/fmt/CMakeFiles/rebuild_cache.dir
 C:/19_cource/Course_project/build/fmt/CMakeFiles/list_install_components.dir
